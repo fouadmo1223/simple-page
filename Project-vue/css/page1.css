@@ -1,0 +1,124 @@
+﻿*{
+    margin: 0;
+    padding: 0;
+   box-sizing:border-box;
+    
+}
+:root {
+    --div-color: #1b3138;
+    --div-sec-color: #5fbc6d;
+    --p-color: #6e8a93;
+}
+a{
+    text-decoration:none;
+}
+
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #11252b;
+}
+
+.divColor {
+    background-color: #1b3138;
+}
+
+.pColor {
+    color: #6e8a93;
+}
+.icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon.fa {
+    color: #1b3138;
+    font-size:20px;
+}
+
+.icon:hover {
+        background-color: #75c05e;
+        cursor:pointer;
+}
+
+.icon:hover .fa{
+    color:white !important;
+}
+.subButton:hover {
+    background-color: var(--div-sec-color) !important;
+}
+
+.div2color{
+    background-color:var(--div-sec-color);
+
+}
+.div2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media (max-width:567px){
+    .inpEmail{
+        width:100px !important;
+    }
+}
+
+.anchor {
+    width: 200px;
+  
+    height: 60px;
+   
+    background-color: white;
+}
+    .anchor a {
+        text-decoration: none;
+        color: #2e3441;
+    }
+
+.anchor:hover{
+    background-color:var(--div-color);
+}
+.anchor:hover a{
+    color:white !important;
+
+}
+.calctotal:hover {
+    cursor: pointer;
+    color: red;
+}
+
+.calctotal2:hover {
+    cursor: pointer;
+    color: red;
+}
+
+
+/*
+.divWidth{
+    min-width:300px;
+}
+
+
+@media (min-width:770px) and (max-width:973px){
+    .divWidth{
+        min-width:270px;
+    }
+
+}
+    */
+
+.coloring:hover {
+    background-color: var(--div-sec-color) !important;
+    color:white !important;
+}
+
+.bordercolor:hover {
+   border: 5px solid;
+   border-image:linear-gradient(to right ,#1ab58c 50% , #8ec842) 5;
+}

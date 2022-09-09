@@ -1,0 +1,50 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.fullscreen {
+    background-image: url("../imgs/back-ground.jpeg");
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+    .fullscreen::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-image: url("../imgs/over.png");
+        opacity: 70%;
+    }
+
+
+
+.centerized {
+    position: absolute;
+    z-index: 5;
+    left: 50%;
+    top: 50%;
+    background-color: white;
+    transform: translate(-50%,-50%);
+    width: 60%;
+    height: 40%;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.colorbutton:hover{
+
+    color:white !important;
+    background-color:green !important;
+
+}
